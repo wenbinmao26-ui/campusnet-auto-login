@@ -1,0 +1,17 @@
+# Runtime data and credentials must never be committed.
+credential.xml
+*.clixml
+state.json
+last-run.json
+campusnet.log*
+launcher.log*
+run.lock
+backups/
+state-before-credential-change-*.json
+*.tmp
+
+# Editor and OS files.
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
